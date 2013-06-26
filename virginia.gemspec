@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency %q<adhearsion>, ["~> 2.1"]
-  s.add_runtime_dependency %q<activesupport>, [">= 3.0.10"]
+  s.add_runtime_dependency %q<activesupport>, ["~> 3.0"]
   s.add_runtime_dependency %q<reel>
   s.add_runtime_dependency %q<octarine>
 
